@@ -1,0 +1,13 @@
+{
+  "name": "emails-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/davidlpc1/emails-node",
+  "author": "Davi Lucas <davilucasdlcreator@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.17"
+  }
+}
