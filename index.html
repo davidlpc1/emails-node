@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail service</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+
+        html,body{
+            height:100vh
+        }
+
+        body{
+            background-color: aqua;
+            color:#222;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        a{
+            text-decoration:none;
+            color:#11a;
+            transition:300ms;
+        }
+
+        a:hover{
+            color:#11a9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Use<h4> 
+    <a href="localhost:3000/send/mailtrap?to=to&subject=subject&text=text">localhost:3000/send/mailtrap?to=to&subject=subject&text=text</a>
+</body>
+</html>
